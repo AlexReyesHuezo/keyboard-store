@@ -1,0 +1,12 @@
+/* Navbar*/
+
+.navbar {
+  padding: 2rem;
+}
+
+/* Responsive */
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
