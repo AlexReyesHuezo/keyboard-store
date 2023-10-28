@@ -1,8 +1,35 @@
-/* Navbar*/
+/* Type selectors */
+section, .hero-principal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+h1 {
+  font-size: 2.5rem;
+}
+
+
+/* Navbar*/
 .navbar {
   padding: 2rem;
 }
+
+/* Hero */
+.hero {
+  background-image: url('https://res.cloudinary.com/alexander-reyes/image/upload/v1697594064/keyboard-store/k-hero_mcvdgl.jpg');
+  background-size: cover;
+  min-height: 650px;
+  text-align: center;
+}
+
+.hero-icon {
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+
 
 /* Responsive */
 @media screen and (max-width: 767px) {
